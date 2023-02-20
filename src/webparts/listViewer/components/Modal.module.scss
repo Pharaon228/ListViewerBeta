@@ -1,0 +1,50 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modalHeader span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.modalBody {
+  margin-bottom: 10px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalFooter button {
+  margin-left: 10px;
+}
+
+.evenRow {
+  background-color: white!important;
+}
+
+.oddRow {
+  background-color: #38f0c8!important;
+}
+
+.editButton {
+  margin-right: 10px;
+  color: blue;
+}
